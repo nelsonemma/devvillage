@@ -11,6 +11,7 @@ const Footer = () => {
 			<div className='footer-grid'>
 				<div className='footer1'>
 					<h3> <span>DEV</span> villa. </h3>
+					<p className='text-sm '>Hire tech talents, find tech jobs, gigs & projects, read tech articles and get updated with the latest tech news</p>
 
 				</div>
 

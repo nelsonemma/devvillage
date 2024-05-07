@@ -21,6 +21,11 @@
 	font-size: larger;
 }
 
+.footer1 p{
+	color: rgb(152, 151, 151);
+
+}
+
 .footer1 ul li{
 	color: rgb(152, 151, 151);
 	line-height: 3;

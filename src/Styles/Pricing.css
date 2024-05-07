@@ -132,13 +132,18 @@
 	margin-top: 5%;
 	width:80% ;
 	height: 30%;
-	border: 1px solid #cacaca;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 10%;
+	/* border: 1px solid #cacaca; */
+	padding: 10px;
+	
 	line-height: 3;
 	color: #cacaca;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	/* gap: 20px; */
+	width: 100%;
+	place-items: center;
+	margin-bottom: 20px;
+	
 	
 
 
