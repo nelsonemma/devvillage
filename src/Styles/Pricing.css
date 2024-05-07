@@ -1,0 +1,166 @@
+.grid-price {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+	width: 100%;
+	place-items: center;
+	padding-top: 5%;
+	/* height: 60vh; */
+	/* border: 2px solid rgb(79,70,229); */
+	/* background-color: rgb(243, 242, 242); */
+
+}
+
+.starter,
+.plus,
+.standard {
+	/* border: 2px solid red; */
+	padding: 20px;
+	background-color: gainsboro;
+	border-radius: 10px;
+	width: 80%;
+
+
+}
+
+.starter{
+	border-top: 4px solid rgb(79, 70, 229);
+
+}
+
+.starter:hover {
+	border-top: none;
+	
+
+	border-radius: 22px;
+	background: linear-gradient(145deg, rgb(79, 70, 229), #f0f0f0, #cacaca);
+	box-shadow: 24px 24px 48px #868686,
+		-24px -24px 48px #ffffff;
+
+
+
+
+}
+
+.plus{
+	border-top:4px solid crimson;
+}
+
+.plus:hover {
+	/* border-top: 4px solid crimson; */
+	border-top: none;
+	border-radius: 22px;
+	background: linear-gradient(145deg, crimson, #f0f0f0, #cacaca);
+	box-shadow: 24px 24px 48px #868686,
+		-24px -24px 48px #ffffff;
+
+
+
+
+}
+
+.standard{
+	border-top:4px solid rgb(29, 27, 28);
+
+}
+
+.standard:hover {
+	border-top: none;
+	border-radius: 22px;
+	background: linear-gradient(145deg, rgb(47, 47, 48), #f0f0f0, #cacaca);
+	box-shadow: 24px 24px 48px #868686,
+		-24px -24px 48px #ffffff;
+
+
+
+
+}
+
+.starter h1,
+.plus h1,
+.standard h1 {
+	font-weight: 900;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.start-btn{
+	
+	
+	background-color: rgb(79, 70, 229) ;
+	border-radius: 5px;
+	/* box-shadow: 2px 0 0 2px black; */
+	color: white;
+	font-weight: 700;
+	font-size: larger;
+}
+.start-btn:hover{
+	box-shadow: 2px 0 0 2px black;
+
+}
+
+.standard-btn{
+	background-color: crimson;
+	border-radius: 5px;
+	/* box-shadow: 2px 0 0 2px black; */
+	color: white;
+	font-weight: 700;
+	font-size: larger;
+
+
+}
+.standard-btn:hover{
+	box-shadow: 2px 0 0 2px rgb(56, 56, 56);
+
+}
+.plus-btn{
+	background-color: rgb(54, 53, 53);
+	border-radius: 5px;
+	/* box-shadow: 2px 0 0 2px black; */
+	color: white;
+	font-weight: 700;
+	font-size: larger;
+
+}
+.plus-btn:hover{
+	box-shadow: 2px 0 0 2px white;
+
+}
+
+
+.checklist{
+	margin: auto;
+	margin-top: 5%;
+	width:80% ;
+	height: 30%;
+	border: 1px solid #cacaca;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10%;
+	line-height: 3;
+	color: #cacaca;
+	
+
+
+}
+
+
+.flex1{
+
+}
+
+
+
+
+@media only screen and (max-width:1024px) {
+	.select {
+		font-size: 25px;
+	}
+
+	.checklist{
+		width: fit-content;
+		height: fit-content;
+
+	}
+}
+

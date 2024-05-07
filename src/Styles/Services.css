@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik+Doodle+Shadow&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.backg{
+	background-color: gainsboro;
+}
+.service-grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+}
+
+
+.grid-content{
+	/* align-items: center; */
+	place-content: center;
+}
+
+.grid-content h1 , h2{
+	/* font-family: 'Courier New', Courier; */
+	font-family: "Titillium Web", sans-serif; 
+}
+
+.grid-content span{
+	color: rgb(79,70,229);
+}
+
+.grid-icon{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+	
+}
+
+.grid-icon1{
+	/* align-items: center;
+	place-content: center; */
+	text-align: center;
+	border-radius: 10px;
+	
+	background-color:  rgb(213, 213, 215);
+	height: 80px;
+	padding-top: 20px;
+	
+
+}
+.grid-icon1:hover{
+	border-bottom: 4px solid  rgb(79,70,229);
+	background-color:  rgb(193, 193, 196);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1024px){
+	.grid-content h1{
+		font-size: 26px;
+	}
+}
